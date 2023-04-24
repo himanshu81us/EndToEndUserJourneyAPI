@@ -114,18 +114,6 @@ it('Login -WH', async function(){
            console.log(response.body) //XML BODY
          });
 
-
-
-
-
-
-
-
-
-
-
-
-
 //Test-3 Logout
          it ('LogOut', async function(){
           var response = await pactum.spec()
